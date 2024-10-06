@@ -66,7 +66,11 @@ a { text-decoration: none;}
         letter-spacing: 0.04em;
         color: #fff;
         cursor: pointer;
+        background-color: #4D5AE5;
 }
+.hero-button:hover,
+.hero-button:focus {
+    color: #404bbf;
 
 
 /*----------------ABOUT-------------*/
@@ -95,6 +99,7 @@ a { text-decoration: none;}
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 .team-name {
         font-weight: 500;
@@ -111,6 +116,9 @@ a { text-decoration: none;}
         text-align: center;
         color: #434455;
 }
+.team-item { 
+    background-color: #FFFFFF;
+}
 
 /*-------------PORTFOLIO-----------*/
 
@@ -120,6 +128,7 @@ a { text-decoration: none;}
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -147,3 +156,10 @@ a { text-decoration: none;}
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
+.footer-text {    
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+
